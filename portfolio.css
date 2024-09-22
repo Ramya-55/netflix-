@@ -12,14 +12,7 @@
    filter: drop-shadow(10px 10px 10px rgb(229, 255, 0));
    color: yellow;
 }
-.banner{
-   background-image: url("https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeqU5y13eHjQ6rfOYnpZUi3Rs_tf8KhstGfq_LmpqDzeR0UmZ_Op7pNso4OFiL97UO-hwXayjoAue7TL_Okys9Q280u7XZJpbOle.jpg?r=834&quot;");
-   background-size: cover;
-   background-position: center center;
-   max-width: 100%;
-   background-repeat: no-repeat;
-   height: 448px;
-}
+
 .posters{
    display:flex;
    overflow-y: hidden;
@@ -30,7 +23,7 @@
    display:none;
 }
 .poster{
-   margin: 0% 5%;
+   margin: 2%  5%;
    border-radius: 0.9%;
 }
 .k-drama{
