@@ -9,10 +9,37 @@ body{
     color: white;
 }
 .banner{
-    background: linear-gradient(90deg, #181818 10%, hsla(0, 10%, 9%, .98) 20%, hsla(0, 0%, 9%, .97) 25%, hsla(0, 0%, 9%, .95) 35%, hsla(0, 0%, 9%, .94) 40%, hsla(0, 2%, 9%, .92) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .87) 55%, hsla(0, 0%, 9%, .82) 60%, hsla(0, 0%, 9%, .75) 65%, hsla(0, 0%, 9%, .63) 70%, hsla(0, 0%, 9%, .45) 75%, hsla(0, 0%, 9%, .27) 80%, hsla(0, 0%, 9%, .15) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0)),url(https://occ-0-2484-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSzRQqMaM5IXcrgrT64Qtp3AZmvJU3mEwpA3Kiegs_qP3hMdpLLRnSZ9mVlvg8R9nO4SikNpRCvjI1gv1dsY2U7PJ75G0-WjI3Kv.jpg?r=a5a&quot;);
+    background: linear-gradient(90deg, #181818 10%, hsla(0, 10%, 9%, .98) 20%, hsla(0, 0%, 9%, .97) 25%, hsla(0, 0%, 9%, .95) 35%, hsla(0, 0%, 9%, .94) 40%, hsla(0, 2%, 9%, .92) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .87) 55%, hsla(0, 0%, 9%, .82) 60%, hsla(0, 0%, 9%, .75) 65%, hsla(0, 0%, 9%, .63) 70%, hsla(0, 0%, 9%, .45) 75%, hsla(0, 0%, 9%, .27) 80%, hsla(0, 0%, 9%, .15) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0)),url(https://occ-0-2484-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSzRQqMaM5IXcrgrT64Qtp3AZmvJU3mEwpA3Kiegs_qP3hMdpLLRnSZ9mVlvg8R9nO4SikNpRCvjI1gv1dsY2U7PJ75G0-WjI3Kv.jpg?r=a5a&quot);
     background-position:center center;
     background-size:cover;
     max-width: 100%;
     height: 100vh;
     
-};
+}
+.bannercontent .bannertitle img{
+ object-fit: contain;
+max-width:70%;
+}
+.bannercontent{
+padding: 10% 10%;
+}
+.bannercontent .bannertitle h1{
+    font-size:30px ;
+    padding: 10px 0px;
+}
+    .bannercontent .bannnertitle h3{
+        color: #a3a3a3;
+font-weight: 400;
+font-size: 20px;
+    }
+    .bannercontent .bannertitle span{
+padding:10px;
+    }
+ .user1{
+    padding: 4px 8px;
+    border: 2px solid #a3a3a3;
+}
+ .p{
+    max-width: 30%;
+    padding: 20px 0px;
+}
