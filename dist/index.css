@@ -8,6 +8,47 @@ body{
     background-color: #222;
     color: white;
 }
+nav{
+    display: flex;
+    padding: 0 40px;           
+    justify-content: space-between;
+}
+nav .logo img{
+    object-fit: contain;
+    max-width: 10%;
+}
+nav .series{
+    display: flex;
+    margin:10px 20px;
+}
+nav .series .signup{
+    background-color: #E50914;
+    color: #fff;
+    padding:2px 4px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 0 10px;
+}
+nav .series .signup:hover{
+    background-color: #631fd0;
+    color:#111;
+    transition: 0.8ms;
+}
+nav .series .login{
+    background-color: transparent;
+    color:#fff;
+    padding: 2px 4px; 
+    border: 2px solid #fff;
+    }
+    nav .series .login:hover{
+        background-color: #a3a3a3;
+        color: #111;
+        transition: 0.5ms;
+    }
 .banner{
     background: linear-gradient(90deg, #181818 10%, hsla(0, 10%, 9%, .98) 20%, hsla(0, 0%, 9%, .97) 25%, hsla(0, 0%, 9%, .95) 35%, hsla(0, 0%, 9%, .94) 40%, hsla(0, 2%, 9%, .92) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .87) 55%, hsla(0, 0%, 9%, .82) 60%, hsla(0, 0%, 9%, .75) 65%, hsla(0, 0%, 9%, .63) 70%, hsla(0, 0%, 9%, .45) 75%, hsla(0, 0%, 9%, .27) 80%, hsla(0, 0%, 9%, .15) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0)),url(https://occ-0-2484-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSzRQqMaM5IXcrgrT64Qtp3AZmvJU3mEwpA3Kiegs_qP3hMdpLLRnSZ9mVlvg8R9nO4SikNpRCvjI1gv1dsY2U7PJ75G0-WjI3Kv.jpg?r=a5a&quot);
     background-position:center center;
@@ -39,7 +80,39 @@ padding:10px;
     padding: 4px 8px;
     border: 2px solid #a3a3a3;
 }
- .p{
+ p{
     max-width: 30%;
     padding: 20px 0px;
+}
+footer{
+    padding: 50px 4% 10px;
+    color: #666;
+}
+footer h1{
+    font-size: 1.2 rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 30px 0;
+    color: #666;
+}
+footer .row{
+    display: flex;
+    align-items: start;
+    padding: 10px 0;
+}
+footer .col{
+    margin: 10px 50px;
+}
+footer .col a{
+    color:#666;
+    font-size: 0.8rem;
+    padding: 8px;
+    display: block;
+
+}
+footer button{
+    background-color: #111;
+    color: white;
+    width: 100px;
+    height:25px;
 }
